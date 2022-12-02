@@ -1,9 +1,36 @@
+<!DOCTYPE html>
 <html>
-  <head> 
-    <title>My Webpage</title>
- </head>
-  <body>
-    <h1>Hello everyone!</h>
-    <p>Loremipsum</p>
-   </body>
-</html>  
+<head>
+    <title>My Personal Page</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is my personal page" />
+    <meta name="author" content="Your Name" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <h1>My Personal Page</h1>
+    <p>Welcome to my personal page.</p>
+    <h2>About Me</h2>
+    <p>Here you can find out more about my life and interests.</p>
+    <h2>Contact Me</h2>
+    <p>If you would like to get in touch with me, please use the contact form below.</p>
+    <form action="contact.php" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" />
+        </p>
+        <p>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Send Message" />
+        </p>
+    </form>
+</body>
+</html>
